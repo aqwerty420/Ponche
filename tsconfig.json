@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": [
+      "@typescript-to-lua/language-extensions",
+      "lua-types/5.1",
+      "awful-types"
+    ],
+    "outDir": "./dist",
+    "strict": true
+  },
+  "tstl": {
+    "noHeader": true,
+    "noImplicitSelf": true,
+    "noImplicitGlobalVariables": true,
+    "luaTarget": "5.1",
+    "luaLibImport": "require",
+    "luaPlugins": [
+      // Inject Unlocker, awful, project
+      { "name": "./plugins/inject.ts" },
+      // Handle lua require to awful env
+      { "name": "./plugins/require.ts" },
+      // Handle awful populate
+      { "name": "./plugins/populate.ts" },
+      // Wrap protected functions calls
+      { "name": "./plugins/protected.ts" },
+      // Populate lualib to awful
+      { "name": "./plugins/lualib.ts" },
+      // Copy loader
+      { "name": "./plugins/load.ts" }
+    ]
+  },
+  "exclude": ["plugins/**/*", "node_modules/**/*", "dist/**/*"]
+}

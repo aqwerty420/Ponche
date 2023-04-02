@@ -1,0 +1,30 @@
+{
+  "name": "ponche",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ponche:build": "cross-env NODE_ENV=production PROJECT_NAME=ponche tstl",
+    "ponche:dev": "cross-env PROJECT_NAME=ponche tstl --watch",
+    "clean": "rimraf dist/*"
+  },
+  "dependencies": {
+    "@typescript-to-lua/language-extensions": "1.0.0",
+    "awful-types": "1.6.16",
+    "cross-env": "7.0.3",
+    "lua-types": "2.13.1",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.3",
+    "typescript-to-lua": "1.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.7",
+    "rimraf": "4.4.1",
+    "tslib": "2.5.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "load": [
+    "lualib_bundle",
+    "base/lists",
+    "base/bigWigs",
+    "base/simc",
+    "base/cache",
+    "base/items",
+    "base/gui",
+    "base/spells",
+    "base/mechanics",
+    "base/rotation",
+    "hunter/simc",
+    "hunter/lists",
+    "hunter/spells",
+    "hunter/gui",
+    "hunter/cache",
+    "hunter/callbacks",
+    "hunter/rotation",
+    "hunter/mechanics",
+    "hunter/beastMastery",
+    "hunter/marksmanship",
+    "hunter/survival"
+  ]
+}
