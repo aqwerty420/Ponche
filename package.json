@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@typescript-to-lua/language-extensions": "1.0.0",
-    "awful-types": "1.6.16",
+    "awful-types": "1.7.0",
     "cross-env": "7.0.3",
     "lua-types": "2.13.1",
     "ts-node": "10.9.1",

@@ -5,8 +5,8 @@ dependencies:
     specifier: 1.0.0
     version: 1.0.0
   awful-types:
-    specifier: 1.6.16
-    version: 1.6.16(@types/node@18.15.11)
+    specifier: 1.7.0
+    version: 1.7.0(@types/node@18.15.11)
   cross-env:
     specifier: 7.0.3
     version: 7.0.3
@@ -368,8 +368,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /awful-types@1.6.16(@types/node@18.15.11):
-    resolution: {integrity: sha512-+85ygEbxLbiPD0Wr0GnnjAbnjFKrLoJt5oNQOeEkbhJOfgqGT0Bs7dWn1lI+hMKKgPBpLPGg4tqWIA4qYzfkzA==}
+  /awful-types@1.7.0(@types/node@18.15.11):
+    resolution: {integrity: sha512-6u48pdHuytvRy3wkwT+j6mpzHtSUm8dyXaw+h+fxTMNggH0VsxiAeEeVSM/9sDdKoHe+lcPLKSJiF6016LvR0g==}
     dependencies:
       '@typescript-to-lua/language-extensions': 1.0.0
       lua-types: 2.13.1
