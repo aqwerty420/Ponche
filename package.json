@@ -12,7 +12,7 @@
     "awful-types": "1.6.16",
     "cross-env": "7.0.3",
     "lua-types": "2.13.1",
-    "ts-node": "10.9.1",
+    "ts-node": "10.9.2",
     "typescript": "5.0.3",
     "typescript-to-lua": "1.14.0"
   },
