@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@typescript-to-lua/language-extensions':
     specifier: 1.0.0
@@ -20,8 +24,8 @@ dependencies:
     specifier: 5.0.3
     version: 5.0.3
   typescript-to-lua:
-    specifier: 1.14.0
-    version: 1.14.0(typescript@5.0.3)
+    specifier: 1.27.0
+    version: 1.27.0(typescript@5.0.3)
 
 devDependencies:
   '@types/node':
@@ -314,6 +318,10 @@ packages:
 
   /@typescript-to-lua/language-extensions@1.0.0:
     resolution: {integrity: sha512-GtmhFqyg+txpGgGLM3mlS3R6AEG9MQhKALxxcbr6SBzg9u7YAXcPKqUBaBYd6nH+Pi/eQLcWz4BNOLhz8v4TjQ==}
+    dev: false
+
+  /@typescript-to-lua/language-extensions@1.19.0:
+    resolution: {integrity: sha512-Os5wOKwviTD4LeqI29N0btYOjokSJ97iCf45EOjIABlb5IwNQy7AE/AqZJobRw3ywHH8+KzJUMkEirWPzh2tUA==}
     dev: false
 
   /acorn-jsx@5.3.2(acorn@8.8.1):
@@ -1019,7 +1027,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-    dev: true
 
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
@@ -1262,15 +1269,16 @@ packages:
       typescript: 4.9.4
     dev: false
 
-  /typescript-to-lua@1.14.0(typescript@5.0.3):
-    resolution: {integrity: sha512-4vkqh6urP0TF7xDL69dh7GcGUMdeIhnq5WBc05VUVHA5gXQiEBTqNW78D8A4OQM9dxdYJSPMIoRiF9SQSV6z3A==}
+  /typescript-to-lua@1.27.0(typescript@5.0.3):
+    resolution: {integrity: sha512-+J4SMCWxWGCUKqkkoUZVbmfhRO+8rYt5hBIJ/7adD8/Pv0nEIfWBTPirCdzMOoegbi1NB7QsRuUvbbftUVpnLw==}
     engines: {node: '>=16.10.0'}
     hasBin: true
     peerDependencies:
-      typescript: ^5.0.2
+      typescript: 5.6.2
     dependencies:
-      '@typescript-to-lua/language-extensions': 1.0.0
+      '@typescript-to-lua/language-extensions': 1.19.0
       enhanced-resolve: 5.10.0
+      picomatch: 2.3.1
       resolve: 1.22.1
       source-map: 0.7.4
       typescript: 5.0.3
