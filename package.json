@@ -17,7 +17,7 @@
     "typescript-to-lua": "1.14.0"
   },
   "devDependencies": {
-    "@types/node": "18.15.11",
+    "@types/node": "18.19.59",
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "@typescript-eslint/parser": "5.57.0",
     "eslint": "8.37.0",
